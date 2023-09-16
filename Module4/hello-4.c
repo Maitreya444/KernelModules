@@ -5,17 +5,17 @@
 
 #define DRIVER_AUTHOR "Piyush Khairnar"
 
-#define DRIVER_DESC   "Marvellous Infosystems Demo module"
+#define DRIVER_DESC   "Maitreya Demo module"
 
 static int __init init_hello_4(void)
 {
-	printk(KERN_INFO "Marvellous : loading module\n");
+	printk(KERN_INFO "Maitreya : loading module\n");
 	return 0;
 }
 
 static void __exit cleanup_hello_4(void)
 {
-	printk(KERN_INFO "Marvellous : Removing module\n");
+	printk(KERN_INFO "Maitreya : Removing module\n");
 }
 
 module_init(init_hello_4);

@@ -6,13 +6,13 @@ static int hello3_data __initdata = 21;
 
 static int __init hello_3_init(void)
 {
-	printk(KERN_INFO "Marvellous : module inserted with data %d\n", hello3_data);
+	printk(KERN_INFO "Maitreya : module inserted with data %d\n", hello3_data);
 	return 0;
 }
 
 static void __exit hello_3_exit(void)
 {
-	printk(KERN_INFO "Marvellous : module removed\n");
+	printk(KERN_INFO "Maitreya : module removed\n");
 }
 
 module_init(hello_3_init);

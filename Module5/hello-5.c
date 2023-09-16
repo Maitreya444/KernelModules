@@ -16,7 +16,7 @@
 #define DRIVER_AUTHOR "Piyush Khairnar"
 
 // Macro for module description
-#define DRIVER_DESC   "Marvellous Infosystems Demo module with arguments"
+#define DRIVER_DESC   "Maitreya Demo module with arguments"
 
 int myint = 21;
 
@@ -31,13 +31,13 @@ MODULE_PARM_DESC(myint, "Integer variable");
 
 static int __init hello_5_init(void)
 {
-	printk(KERN_INFO "Marvellous Value is:  %d\n", myint);
+	printk(KERN_INFO "Maitreya Value is:  %d\n", myint);
 	return 0;
 }
 
 static void __exit hello_5_exit(void)
 {
-	printk(KERN_INFO "Maevellous : Removing module\n");
+	printk(KERN_INFO "Maitreya : Removing module\n");
 }
 
 module_init(hello_5_init);

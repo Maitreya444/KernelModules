@@ -3,7 +3,7 @@
 #include <linux/init.h>		/* Needed for the macros */
 
 
-#define DRIVER_AUTHOR "Piyush Khairnar"
+#define DRIVER_AUTHOR "Maitreya Gangurde"
 
 #define DRIVER_DESC   "Maitreya Demo module"
 
